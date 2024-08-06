@@ -28,5 +28,10 @@ public class HomeController {
     {
         return "Hello world";
     }
+    @GetMapping("/hello")
+    public String gethello()
+    {
+        return " Ho Gello";
+    }
 
 }
