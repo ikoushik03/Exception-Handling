@@ -22,4 +22,11 @@ public class HomeController {
         }
     }
 
+
+    @GetMapping("/msg")
+    public String getMsg()
+    {
+        return "Hello world";
+    }
+
 }
